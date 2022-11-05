@@ -102,7 +102,6 @@
             <div class="form-group">
                 {{ form.username.label(class="form-control-label") }}
 
-                <!-- Seção que faz a validação dos formulários -->
                 {% if form.username.errors %}
                     {{ form.username(class="form-control form-control-lg is-invalid") }}
                     <div class="invalid-feedback">
@@ -117,7 +116,6 @@
             <div class="form-group mb-0">
                 {{ form.email.label(class="form-control-label") }}
 
-                <!-- Seção que faz a validação dos formulários -->
                 {% if form.email.errors %}
                     {{ form.email(class="form-control form-control-lg is-invalid") }}
                     <div class="invalid-feedback">

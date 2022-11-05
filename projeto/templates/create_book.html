@@ -20,7 +20,6 @@
                 <div class="form-group">
                     {{ form.title.label(class="form-control-label") }}
 
-                    <!-- Seção que faz a validação dos formulários -->
                     {% if form.title.errors %}
                         {{ form.title(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
@@ -35,7 +34,6 @@
                 <div class="form-group">
                     {{ form.author.label(class="form-control-label") }}
 
-                    <!-- Seção que faz a validação dos formulários -->
                     {% if form.author.errors %}
                         {{ form.author(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
@@ -61,7 +59,6 @@
                 <div class="form-group mb-0">
                     {{ form.summary.label(class="form-control-label") }}
 
-                    <!-- Seção que faz a validação dos formulários -->
                     {% if form.summary.errors %}
                         {{ form.summary(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
